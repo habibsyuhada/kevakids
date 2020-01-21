@@ -25,6 +25,21 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <style type="text/css">
+      .portofolio{
+        background-size: cover;
+        background-position: center;
+        width:100%;
+        height:100%;
+
+      }
+      .col-portofolio{
+        /*text-align: center;*/
+        overflow: hidden;
+        height: 200px;
+      }
+    </style>
   </head>
   <body>
     
@@ -38,9 +53,10 @@
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
 	          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="about.html" class="nav-link">Decoration</a></li>
-	          <li class="nav-item"><a href="about.html" class="nav-link">Photography</a></li>
-	          <li class="nav-item"><a href="about.html" class="nav-link">Contact</a></li>
+	          <li class="nav-item"><a href="#" class="nav-link">Decoration</a></li>
+	          <li class="nav-item"><a href="#" class="nav-link">Photography</a></li>
+	          <li class="nav-item"><a href="blog.html" class="nav-link">News</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
 	          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
 	          <!-- <li class="nav-item"><a href="domain.html" class="nav-link">Domain</a></li> -->
 	          <!-- <li class="nav-item"><a class="nav-link" href="hosting.html">Hosting</a></li> -->
@@ -55,17 +71,17 @@
 
     <div class="hero-wrap js-fullheight">
       <div class="overlay"></div>
-      <div class="container-fluid px-0">
+      <div class="container px-0">
       	<div class="row d-md-flex no-gutters slider-text align-items-center js-fullheight justify-content-end">
-	      	<img class="one-third align-self-end order-md-last img-fluid" src="images/1561214769.gif" alt="">
-	        <div class="one-forth d-flex align-items-center ftco-animate js-fullheight">
+	        <div class="col-md">
 	        	<div class="text mt-5">
 	        		<span class="subheading">Group Company</span>
 	            <h1 class="mb-3"><span>Keva</span> <span>Kid's</span></h1>
 	            <p>Keva kid's Group Company berpengalaman dalam mengorganisasikan event untuk perseorangan, institusi dan perusahaan. Seperti Wedding, Company launching, Products launching, gathering dan lain-lain</p>
-	            <p><a href="#" class="btn btn-primary px-4 py-3">Lebih Detail</a></p>
+	            <p><a href="#" class="btn btn-primary px-4 py-3"><strong>Lebih Detail</strong></a></p>
 	          </div>
 	        </div>
+          <img class="col-md-7" src="images/1561214769.gif" alt="">
 	    	</div>
       </div>
     </div>
@@ -471,7 +487,7 @@
 
     <section class="ftco-section bg-light">
     	<div class="container">
-    		<div class="row justify-content-center mb-5 pb-5">
+    		<div class="row justify-content-center mb-1 pb-1">
     			<div class="col-md-7 text-center heading-section ftco-animate">
             <span class="subheading">Keva Kid's</span>
             <h2 class="mb-4">Products</h2>
@@ -500,7 +516,7 @@
 		                <h2 class="mb-4">Keva Kid's Group Decoration</h2>
 		              	<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 		                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
-		                <p><a href="#" class="btn btn-primary py-3">Lebih Detail</a></p>
+		                <p><a href="#" class="btn btn-primary py-3"><strong>Lebih Detail</strong></a></p>
 		              </div>
 	              </div>
               </div>
@@ -521,7 +537,7 @@
 		                	<li>Band Performance</li>
 		                	<li>Dan lain-lain</li>
 		                </ul>
-		                <p><a href="#" class="btn btn-primary py-3">Lebih Detail</a></p>
+		                <p><a href="#" class="btn btn-primary py-3"><strong>Lebih Detail</strong></a></p>
 		              </div>
 	              </div>
               </div>
@@ -535,7 +551,7 @@
 		                <h2 class="mb-4">Effective VPS hosting</h2>
 		              	<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 		                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptate, quibusdam sunt iste dolores consequatur</p>
-		                <p><a href="#" class="btn btn-primary py-3">Lebih Detail</a></p>
+		                <p><a href="#" class="btn btn-primary py-3"><strong>Lebih Detail</strong></a></p>
 		              </div>
 	              </div>
               </div> -->
@@ -543,6 +559,66 @@
           </div>
         </div>
     	</div>
+    </section>
+
+    <section class="ftco-section">
+      <div class="container">
+        <div class="row justify-content-center mb-2 pb-2">
+          <div class="col-md-7 text-center heading-section ftco-animate">
+            <span class="subheading">Keva Kid's</span>
+            <h2 class="mb-2">Gallery</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center mb-2 pb-2">
+          <div class="col-md-7 text-center heading-section">
+            <button type="button" name="mix-portopolio" class="btn btn-base active" onclick="$('button[name=mix-portopolio]').removeClass('active');$(this).addClass('active');" data-filter="all">All</button>
+            <button type="button" name="mix-portopolio" class="btn btn-base" onclick="$('button[name=mix-portopolio]').removeClass('active');$(this).addClass('active');" data-filter=".mix-photography">Photography</button>
+            <button type="button" name="mix-portopolio" class="btn btn-base" onclick="$('button[name=mix-portopolio]').removeClass('active');$(this).addClass('active');" data-filter=".mix-decoration">Ddecoration</button>
+          </div>
+        </div>
+        <div class="row container-portofolio">
+          <div class="col-sm-6 col-md-3 mb-3 mix mix-photography px-2">
+            <div class="col-12 col-portofolio shadow p-2">
+              <div class="portofolio" style="background-image: url(images/1561182130.jpg)"></div>
+            </div>  
+          </div>
+          <div class="col-sm-6 col-md-3 mb-3 mix mix-photography px-2">
+            <div class="col-12 col-portofolio shadow p-2">
+              <div class="portofolio" style="background-image: url(images/1561182130.jpg)"></div>
+            </div>  
+          </div>
+          <div class="col-sm-6 col-md-3 mb-3 mix mix-photography px-2">
+            <div class="col-12 col-portofolio shadow p-2">
+              <div class="portofolio" style="background-image: url(images/1562752612.jpg)"></div>
+            </div>  
+          </div>
+          <div class="col-sm-6 col-md-3 mb-3 mix mix-decoration px-2">
+            <div class="col-12 col-portofolio shadow p-2">
+              <div class="portofolio" style="background-image: url(images/1561182130.jpg)"></div>
+            </div>  
+          </div>
+          <div class="col-sm-6 col-md-3 mb-3 mix mix-photography px-2">
+            <div class="col-12 col-portofolio shadow p-2">
+              <div class="portofolio" style="background-image: url(images/1562752612.jpg)"></div>
+            </div>  
+          </div>
+          <div class="col-sm-6 col-md-3 mb-3 mix mix-decoration px-2">
+            <div class="col-12 col-portofolio shadow p-2">
+              <div class="portofolio" style="background-image: url(images/1561182130.jpg)"></div>
+            </div>  
+          </div>
+          <div class="col-sm-6 col-md-3 mb-3 mix mix-photography px-2">
+            <div class="col-12 col-portofolio shadow p-2">
+              <div class="portofolio" style="background-image: url(images/1562752612.jpg)"></div>
+            </div>  
+          </div>
+          <div class="col-sm-6 col-md-3 mb-3 mix mix-decoration px-2">
+            <div class="col-12 col-portofolio shadow p-2">
+              <div class="portofolio" style="background-image: url(images/1561182130.jpg)"></div>
+            </div>  
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="ftco-section bg-light">
@@ -565,7 +641,7 @@
                   <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
                 </div>
                 <div class="desc pl-3">
-	                <h3 class="heading"><a href="#">Engaged day “ Eddy & Any.S “ Perum Marbella Residence</a></h3>
+	                <h3 class="heading"><a href="post.html">Engaged day “ Eddy & Any.S “ Perum Marbella Residence</a></h3>
 	              </div>
               </div>
             </div>
@@ -581,7 +657,7 @@
                   <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
                 </div>
                 <div class="desc pl-3">
-	                <h3 class="heading"><a href="#">Wedding Weni & Santo “Thank you for your trust to use us as partner on your this big day”</a></h3>
+	                <h3 class="heading"><a href="post.html">Wedding Weni & Santo “Thank you for your trust to use us as partner on your this big day”</a></h3>
 	              </div>
               </div>
             </div>
@@ -597,12 +673,17 @@
                   <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
                 </div>
                 <div class="desc pl-3">
-	                <h3 class="heading"><a href="#">Engaged day “ Eddy & Any.S “ Perum Marbella Residence</a></h3>
+	                <h3 class="heading"><a href="post.html">Engaged day “ Eddy & Any.S “ Perum Marbella Residence</a></h3>
 	              </div>
               </div>
             </div>
           </div>
         </div>
+        <!-- <div class="row">
+          <div class="col-md-12">
+            <a href="#" class="btn btn-primary btn-block px-4 py-3"><strong>Lihat Semua</strong></a>
+          </div>
+        </div> -->
       </div>
     </section>
 
@@ -732,6 +813,10 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
-    
+  <script src="js/mixitup.min.js"></script>
+  <script>
+    var containerEl = document.querySelector('.container-portofolio');
+    var mixer = mixitup(containerEl);
+  </script>
   </body>
 </html>
