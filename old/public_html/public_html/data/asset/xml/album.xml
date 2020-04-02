@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rows>
+	<row>
+		<albumname>template</albumname>
+		<type>images</type>
+	</row>
+	<row>
+		<albumname>gallery</albumname>
+		<type>images</type>
+	</row>
+	<row>
+		<albumname>banner</albumname>
+		<type>images</type>
+	</row>
+	<row>
+		<albumname>video</albumname>
+		<type>video</type>
+	</row>
+	<row>
+		<albumname>music</albumname>
+		<type>music</type>
+	</row>
+<row><albumname>KK</albumname><type>images</type></row><row><albumname>wedding</albumname><type>images</type></row><row><albumname>sunatan</albumname><type>images</type></row><row><albumname>Decorations</albumname><type>images</type></row></rows>

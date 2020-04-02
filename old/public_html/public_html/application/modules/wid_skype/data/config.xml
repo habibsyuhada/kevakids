@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rows>
+	<row>
+		<name>Skype Status</name>
+		<widget>wid_skype</widget>
+		<note>Widget ini menampilkan icon status skype</note>
+		<simage>wid_skypes.png</simage>
+		<bimage>wid_skypeb.png</bimage>
+	</row>
+</rows>

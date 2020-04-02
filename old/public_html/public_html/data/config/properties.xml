@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rows>
+  <row>
+    <name>WebsiteName</name>
+    <value>Keva Kid's</value>
+  </row>
+  <row>
+    <name>MetaTitle</name>
+    <value>Keva Kids</value>
+  </row>
+  <row>
+    <name>MetaTitlePrefix</name>
+    <value>Keva Kids</value>
+  </row>
+  <row>
+    <name>WebsiteSlogan</name>
+    <value>Lillah</value>
+  </row>
+  <row>
+    <name>Address</name>
+    <value>Hawaii Garden
+Belian, Kec. Batam Kota, Kota Batam, Kepulauan Riau 29433</value>
+  </row>
+  <row>
+    <name>MetaKeywords</name>
+    <value>Decorations</value>
+  </row>
+  <row>
+    <name>MetaDescription</name>
+    <value>decorations, dekorasi, tenda, nikah, pernikahan, photo, photografer, wedding, party</value>
+  </row>
+  <row>
+    <name>DefaultTemplate</name>
+    <value>woodcrafting</value>
+  </row>
+  <row>
+    <name>WebsiteFooter</name>
+    <value/>
+  </row>
+  <row>
+    <name>BaseFooter</name>
+    <value><![CDATA[<a href="http://www.rumahweb.com" title="hosting">Hosting</a> Rumahweb Indonesia]]></value>
+  </row>
+  <row>
+    <name>DefaultHomepage</name>
+    <value>1</value>
+  </row>
+  <row>
+    <name>nameAndLogo</name>
+    <value>logo</value>
+  </row>
+  <row>
+    <name>Language</name>
+    <value>indonesia</value>
+  </row>
+  <row>
+    <name>WebsiteLogo</name>
+    <value>kl.gif</value>
+  </row>
+  <row>
+    <name>AdminEmail</name>
+    <value/>
+  </row>
+  <row>
+    <name>MetaCharset</name>
+    <value/>
+  </row>
+  <row>
+    <name>GAnalytics</name>
+    <value/>
+  </row>
+</rows>

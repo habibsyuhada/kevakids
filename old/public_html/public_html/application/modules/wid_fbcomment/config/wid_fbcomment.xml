@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rows>
+	<row>
+		<name>Facebook Comment</name>
+		<widget>wid_fbcomment</widget>
+		<note>Widget ini berfungsi untuk memberikan comment ke facebook</note>
+		<simage>wid_messengers.png</simage>
+		<bimage>wid_messengerb.png</bimage>
+	</row>
+</rows>

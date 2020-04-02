@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rows>
+	<row>
+		<name>Skype</name>
+		<widget>wid_skype</widget>
+		<note>Widget ini berfungsi untuk menampilkan status Skype di website</note>
+		<simage>wid_messengers.png</simage>
+		<bimage>wid_messengerb.png</bimage>
+	</row>
+</rows>

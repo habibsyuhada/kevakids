@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rows>
+  <row>
+    <id>1</id>
+    <name>home</name>
+    <title>home</title>
+    <root>0</root>
+    <template/>
+    <position>1</position>
+    <menu>home</menu>
+    <forum>y</forum>
+    <metakeywords>Decorations</metakeywords>
+    <metadescription>decorations, dekorasi, tenda, nikah, pernikahan, photo, photografer, wedding, party</metadescription>
+  </row>
+  <row>
+    <id>2</id>
+    <name>product</name>
+    <title>product</title>
+    <root>0</root>
+    <template/>
+    <position>2</position>
+    <menu>product</menu>
+    <forum>y</forum>
+  <metakeywords>Decorations</metakeywords><metadescription>decorations, dekorasi, tenda, nikah, pernikahan, photo, photografer, wedding, party</metadescription></row>
+  <row>
+    <id>3</id>
+    <name>news</name>
+    <title>news</title>
+    <root>0</root>
+    <template/>
+    <position>3</position>
+    <menu>news</menu>
+    <forum>0</forum>
+  <metakeywords>Decorations</metakeywords><metadescription>decorations, dekorasi, tenda, nikah, pernikahan, photo, photografer, wedding, party</metadescription></row>
+  <row>
+    <id>4</id>
+    <name>contact</name>
+    <title>contact</title>
+    <root>0</root>
+    <template/>
+    <position>4</position>
+    <menu>contact</menu>
+    <forum>y</forum>
+    <metakeywords>Decorations</metakeywords>
+    <metadescription>decorations, dekorasi, tenda, nikah, pernikahan, photo, photografer, wedding, party</metadescription>
+  </row>
+  <row>
+    <id>5</id>
+    <name>sitemap</name>
+    <title>sitemap</title>
+    <root>0</root>
+    <template/>
+    <position>5</position>
+    <menu>sitemap</menu>
+    <forum>0</forum>
+  </row>
+  <row>
+    <id>6</id>
+    <name>about</name>
+    <title>about</title>
+    <root>0</root>
+    <template/>
+    <position>6</position>
+    <menu>about</menu>
+    <forum>y</forum>
+    <metakeywords>Decorations</metakeywords>
+    <metadescription>decorations, dekorasi, tenda, nikah, pernikahan, photo, photografer, wedding, party</metadescription>
+  </row>
+  <row>
+    <id>7</id>
+    <name>support</name>
+    <title>support</title>
+    <root>0</root>
+    <template/>
+    <position>7</position>
+    <menu>support</menu>
+    <forum>0</forum>
+  </row>
+  <row>
+    <id>8</id>
+    <name>decoration</name>
+    <title>decoration</title>
+    <root>2</root>
+    <template/>
+    <position>1</position>
+    <menu>decoration</menu>
+    <forum>y</forum>
+  <metakeywords>Decorations</metakeywords><metadescription>decorations, dekorasi, tenda, nikah, pernikahan, photo, photografer, wedding, party</metadescription></row>
+  <row>
+    <id>9</id>
+    <name>photography</name>
+    <title>photography</title>
+    <root>2</root>
+    <template/>
+    <position>2</position>
+    <menu>photography</menu>
+    <forum>y</forum>
+  <metakeywords>Decorations</metakeywords><metadescription>decorations, dekorasi, tenda, nikah, pernikahan, photo, photografer, wedding, party</metadescription></row>
+</rows>

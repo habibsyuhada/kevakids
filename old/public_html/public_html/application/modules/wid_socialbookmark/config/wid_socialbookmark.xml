@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rows>
+	<row>
+		<name>Social Bookmark</name>
+		<widget>wid_socialbookmark</widget>
+		<note>Widget ini berfungsi untuk memberikan bookmark terhadap beberapa sosial media</note>
+		<simage>wid_socialbookmarks.png</simage>
+		<bimage>wid_socialbookmark.png</bimage>
+	</row>
+</rows>

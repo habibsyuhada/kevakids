@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rows>
+	<name>Social Media</name>
+	<image></image>
+	<show></show>
+	<media>
+		<row>
+			<id>1</id>
+			<name>facebook</name>
+		</row>
+		<row>
+			<id>0</id>
+			<name>kosong</name>
+		</row>
+		<row>
+			<id>2</id>
+			<name>googleplus</name>
+		</row>
+		<row>
+			<id>3</id>
+			<name>linkedin</name>
+		</row>
+		<row>
+			<id>4</id>
+			<name>twitter</name>
+		</row>
+		<row>
+			<id>5</id>
+			<name>youtube</name>
+		</row>
+	</media>
+</rows>

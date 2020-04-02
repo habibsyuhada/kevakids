@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+	<version>0.1</version>
+	<name>woodcrafting</name>
+	<description>
+		<![CDATA[
+			<strong>Name:  woodcrafting</strong><br/>
+			<hr/>
+			<strong>Deskripsi:</strong><br/>
+			<p>Template dengan background kayu</p>
+			<strong>Spesifikasi:</strong><br/>
+			<ul>
+				<li>Lebar halaman utama (content) 650px (fixed)</li>
+			</ul>
+			<strong>Tips:</strong><br/>
+			<ul>
+				<li>Slidebanner panjang maksimum 650px</li>
+			</ul>
+		]]>
+	</description>
+	<category>none</category>
+	<author>hisam</author>
+	<preview>preview.jpg</preview>
+	<thumbnail>thumbnail.jpg</thumbnail>
+	<css>style.css</css>
+	<images>
+		<image>
+			<id>1</id>
+			<name>logo</name>
+			<height>101</height>
+			<width>151</width>
+			<file>logo.png</file>
+			<status>1</status>
+		</image>
+
+	</images>
+</template>
